@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+img {
+    width: 50%;
+    border-top-left-radius: 0.5rem ;
+    border-bottom-left-radius: 0.5rem;
+}
+.titles {
+    padding: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1.5rem;
+}
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 20px 0;
+}
+.titles h1 {
+    line-height: 30px;
+    font-family: "Fraunces", serif;
+}
+span {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font-size: 10px;
+    color: hsl(228, 12%, 48%);
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+p {
+    word-spacing: 1px;
+    line-height: 25px;
+    color:hsl(228, 12%, 48%); ;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+}
+.price h1 {
+    color: hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+}
+.price h3 {
+    color: hsl(228, 12%, 48%);
+    font-size: 15px;
+}
+button  {
+    color: white;
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    padding: 10px;
+    border-radius: 0.3rem;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    transition: all 0.1s ease-in;
+}
+button:hover {
+    color: white;
+    cursor: pointer;
+    background-color: hsl(158, 42%, 18%);
+}
+.add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+}
+.add img {
+    width: 15px;
+    transform: scalex(-1);
+}
+.add span {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    letter-spacing: normal;
+    text-transform: none;
+    
+}
